@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <style>
+    section>div.carousel-area {
+      width: 40%;
+      margin: auto; 
+    }
+    @font-face {
+      font-family: "Font Family 1";
+      src: url("./font/Raleway-SemiBold.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "Font Family 2";
+      src: url("./font/Raleway-Regular.ttf") format("truetype");
+    }
+    .font-class1 {
+      font-family: "Font Family 1", Raleway-SemiBold;
+    }
+    .font-class2 {
+     font-family: "Font Family 2", Raleway-Regular;
+     font-size: 0.9em; 
+    }
+    div.scrolling {
+      width: 600px;
+      height: 180px; 
+      margin: auto; 
+      border: transparent; 
+      overflow: auto; 
+      /* auto - similar to scroll, but it adds scrollbars only when necessary */
+      /* overflow is shortcut for overflow-y and overflow-x */
+      /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_overflow-x */
+      /* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+    }
+  </style>
+  <title>Conversation</title>
+</head>
+
+<body style="background-color: #fff6f5">
+  <header class="page-2 font-class1" style="font-size: 1.15em">
+    <a class="logo" href="index.html"><span>____ collection of magic</span></a>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="page-2.html">Chao ban</a>
+        </li>
+        <li class="active-page">
+          <a href="page-3.html" style="color:#f88379">Conversation</a>
+        </li>
+        <li>
+          <a href="page-4.html">EverydayBingo</a>
+        </li>
+        <li>
+          <a href="page-5.html">Intuition</a>
+        </li>
+      </ul>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="page-2.html">Chao ban</a>
+          <a class="active-menu-item" href="#" style="color:#f88379">Conversation/a>
+          <a href="page-4.html">EverydayBingo</a>
+          <a href="page-5.html">Intuition</a>
+          <a href="page-6.html">My recent happiest moments</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section style="padding-top:80px;">
+    <div class="carousel-area">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./assets/images/pp1.png" alt="People" style="width:100%;"/>
+            <div class="carousel-caption">
+            
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./assets/images/pp2.png" alt="People" style="width:100%;"/>
+            <div class="carousel-caption">
+           
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./assets/images/pp3.png" alt="People" style="width:100%;"/>
+            <div class="carousel-caption">
+         
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- jquery.min.js should be loaded before bootstrap.min.js because bootstrap's JavaScript requires jQueary -->
+  <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--<article style="width: 70%; float: left;">-->
+    <article class="font-class2" style="color:#f88379; text-align: center;">
+        <h4>Good conversation is everything</h4>
+    </article>
+    <!--<section style="width: 30%; float: left; padding: 40px">-->
+      <div class="font-class2 scrolling">
+      <p style="color: #36454F; font-size: 1.2em; font-weight: normal;">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      </div> 
+    </p> 
+    
+  <div class="to-top"><a href="#" style="color: #f88379">Top</a></div>
+  <footer class="font-class1 float-left padding-right" style="background-color: #fcb0a9; height: 200px; width: 50%;">
+    <p style="padding-top: 45px; padding-left: 20px; color: #fff9f7; font-size: 1.5em;"> My collection of magic</p>
+    <p style="padding-left: 20px; color: #fff9f7">Things that make me happy
+    </br>
+    Hope you do too 
+  </p>
+    <p style="padding-top: 10px; padding-left: 20px; color: #fff9f7">tv2058@nyu.edu</p>
+  </footer>
+  <footer class= "font-class1 float-right padding-left" style="text-align:center; background-color: #fcb0a9; color: #fff9f7; height: 200px; width: 50%;">
+      <div class="icon-horizontal" style="padding-top: 70px; color: #fff9f7; text-align:center"></div>
+        <!-- Pinterest -->
+        <a href="https://www.pinterest.com/" target="_blank" class="fa fa-envelope fa-lg fa-2x hover-color padding-right" style="color: #fff9f7; font-size: 1.5em;"></a>
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin fa-lg fa-2x hover-color padding-right" style="color: #fff9f7; font-size: 1.5em"></a>
+        <!-- GitHub -->
+        <a href="https://www.github.com/" target="_blank" class="fa fa-github-alt fa-lg fa-2x hover-color padding-right" style="color: #fff9f7; font-size: 1.5em; padding-right: 0"></a>
+      </div>
+      <div class="copy-right" style="padding-top: 10px; font-size: 1em">
+        <a href="#" target="_blank" class="hover-color padding-right" style="color: #fff9f7">Privacy Policy</a>
+        <a href="#" target="_blank" class="hover-color padding-right" style="color: #fff9f7;">Terms of Use</a>
+        <a href="#" target="_blank" class="hover-color padding-right" style="color: #fff9f7">Accessibility</a>
+      </div>
+      <div class="copy-right hover-color" style="text-align: center; padding-top: 5px;"><span class="fa fa-copyright"></span> All Rights
+        Reserved.</div>
+    </footer>
+</body>
+
+</html>
