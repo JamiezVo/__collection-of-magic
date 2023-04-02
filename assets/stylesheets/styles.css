@@ -6,12 +6,12 @@
 }
 @font-face {
   font-family: "Font Family 1";
-  src: url("./font/Raleway-SemiBold.ttf") format("truetype");
+  src: url("./Font/Raleway-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Font Family 2";
-  src: url("./font/Raleway-Regular.ttf") format("truetype");
+  src: url("./Font/Raleway-Regular.ttf") format("truetype");
 }
 
 /* BEG styling for logo on top */
